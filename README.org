@@ -1,0 +1,14 @@
+# -*- coding:utf-8 -*-
+
+#+TITLE: Play Docker Sample
+#+AUTHOR: ポンコツ戦艦山本
+#+EMAIL: web@ponkotuy.com
+#+OPTIONS: toc:nil num:nil author:nil creator:nil
+#+STYLE: <link rel="stylesheet" type="text/css" href="org.css"></link>
+#+LANGUAGE: ja
+
+** Usage
+#+BEGIN_SRC shell
+   # docker build -t play .
+   # docker run -p 9000:9000 -v ~/.ivy2:/root/.ivy2 -v ~/.sbt:/root/.sbt play
+#+END_SRC
